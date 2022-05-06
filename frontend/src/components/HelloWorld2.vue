@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <p>
-      Practice for studying SpringBoot with JPA and Vue.js!<br>
+      Practice for studying SpringBoot with JPA and Vue.js!222222<br>
       <a href="https://github.com/younghwani" target="_blank" rel="noopener">My GitHub Profile</a>
     </p>
   </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'HelloWorld2',
   props: {
     msg: String
   }
