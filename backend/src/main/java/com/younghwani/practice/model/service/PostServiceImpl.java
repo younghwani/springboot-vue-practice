@@ -1,6 +1,7 @@
-package com.younghwani.practice.model.repository;
+package com.younghwani.practice.model.service;
 
 import com.younghwani.practice.entity.Post;
+import com.younghwani.practice.model.repository.PostRepository;
 import com.younghwani.practice.model.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
