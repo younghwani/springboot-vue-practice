@@ -3,10 +3,12 @@ package com.younghwani.practice.model.repository;
 import com.younghwani.practice.entity.Post;
 import com.younghwani.practice.model.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class PostServiceImpl implements PostService {
     @Autowired
     PostRepository postRepository;
