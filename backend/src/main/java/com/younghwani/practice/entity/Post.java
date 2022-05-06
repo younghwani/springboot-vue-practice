@@ -14,7 +14,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Post {
-    @Id @Column(name = "no")
+    @Id @Column(name = "no") @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int no;
 
     @Column(name = "userId", nullable = false, length = 45)
